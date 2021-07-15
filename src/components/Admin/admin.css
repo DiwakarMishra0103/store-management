@@ -1,0 +1,63 @@
+.admin_body {
+  background-color: rgb(204, 201, 201);
+  padding-top: 57px;
+}
+
+.admin_header {
+  display: flex;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  flex-direction: column;
+  height: 100vh;
+  padding: 15px;
+  background-color: rgb(210, 210, 210);
+  box-shadow: 4px 4px 8px #848486, -4px -4px 8px #fcfcfe;
+}
+
+.inventory_menu,
+.team_menu,
+.order_menu {
+  /* background-color: #494949; */
+  padding: 8px 10px;
+  color: black;
+  font-size: 25px;
+}
+
+.team_menu,
+.order_menu {
+  margin-top: 10px;
+}
+
+.admin_button {
+  font-size: 20px;
+  padding: 5px 10px;
+  /* border: 1px solid #1da1a6; */
+  border: none;
+  border-radius: 18px;
+  margin: 15px 10px;
+  cursor: pointer;
+  color: #1da1a6;
+  outline: none;
+  height: 42px;
+  width: 200px;
+  background: none;
+  box-shadow: 4px 4px 8px #848486, -4px -4px 8px #fcfcfe;
+}
+
+.admin_button:hover {
+  text-decoration: none;
+  box-shadow: 6px 6px 10px #848486, -6px -6px 10px #fcfcfe;
+  color: #01858a;
+}
+.admin_button:active {
+  box-shadow: inset 4px 4px 8px #848486, inset -4px -4px 8px #fcfcfe;
+  font-size: 16px;
+  padding-top: 8px;
+}
+/* Active Button */
+
+/* .admin_active_button {
+  background-color: #1c8ef8;
+  color: white;
+} */

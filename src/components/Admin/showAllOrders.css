@@ -1,0 +1,17 @@
+.delete_order_icon {
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  font-size: 24px;
+}
+
+.my-order-list {
+  position: relative;
+  box-shadow: 4px 4px 8px #848486, -4px -4px 8px #fcfcfe;
+  background: linear-gradient(135deg, #e2e2e4, #c2c2c4);
+}
+
+.delete_order_icon:hover {
+  color: red;
+}

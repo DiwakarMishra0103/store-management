@@ -1,0 +1,47 @@
+.sales_executive_body {
+  background-color: rgb(237, 237, 237);
+  padding-top: 55px;
+}
+
+.sales_executive_header {
+  display: flex;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(210, 210, 210);
+  box-shadow: 4px 4px 8px #848486, -4px -4px 8px #fcfcfe;
+}
+
+.sales_executive_button {
+  font-size: 20px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 18px;
+  margin: 15px 10px;
+  cursor: pointer;
+  color: #1da1a6;
+  outline: none;
+  height: 42px;
+  width: 200px;
+  background: none;
+  box-shadow: 4px 4px 8px #848486, -4px -4px 8px #fcfcfe;
+}
+.sales_executive_button:hover {
+  text-decoration: none;
+  box-shadow: 6px 6px 10px #848486, -6px -6px 10px #fcfcfe;
+  color: #01858a;
+}
+.sales_executive_button:active {
+  box-shadow: inset 4px 4px 8px #848486, inset -4px -4px 8px #fcfcfe;
+  font-size: 16px;
+  padding-top: 8px;
+}
+
+/* Active Button */
+
+/* .sales_executive_active_button {
+  background-color: #1c8ef8;
+  color: white;
+} */

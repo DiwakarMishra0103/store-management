@@ -1,0 +1,48 @@
+.add_medicine_form,
+.add_executive_form_details {
+  width: 600px;
+  margin-left: 300px;
+  margin: 40px auto;
+  margin-left: 35%;
+  padding: 20px;
+  /* box-shadow: 0px 0px 4px 4px lightblue; */
+  box-shadow: 4px 4px 8px #848486, -4px -4px 8px #fcfcfe;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #e2e2e4, #c2c2c4);
+}
+
+.form_groups {
+  margin: 20px auto;
+  width: 180px;
+  text-shadow: 4px 4px 8px #848486, -4px -4px 8px #fcfcfe;
+}
+.form_controls {
+  background: none;
+  height: 42px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  color: #777;
+  font-size: 12px;
+  border-radius: 16px;
+  box-shadow: inset 4px 4px 8px #848486, inset -4px -4px 8px #fcfcfe;
+}
+.form_groups:nth-child(n + 3) {
+  width: 29%;
+}
+
+.btn {
+  margin: 25px auto 10px auto;
+}
+
+.add-medicine {
+  background: linear-gradient(135deg, #c2c2c4, #e2e2e4);
+  height: 100vh;
+}
+.add-medicine h1 {
+  text-shadow: 4px 4px 8px #848486, -4px -4px 8px #fcfcfe;
+}
